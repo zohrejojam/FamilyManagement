@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FamilyManagement.Data\FamilyManagement.Data.csproj" />
+    <ProjectReference Include="..\FamilyManagement.Model\FamilyManagement.Model.csproj" />
+    <ProjectReference Include="..\FamilyManagement.Service\FamilyManagement.Service.csproj" />
+  </ItemGroup>
+
+</Project>
